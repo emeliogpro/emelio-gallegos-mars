@@ -1,0 +1,37 @@
+/*CSS file*/
+
+body {
+    background-color: midnightblue;
+    color: lightblue;
+    font-family: "Georgia", "Times New Roman", serif;
+    padding: 15px 40px 35px 40px;
+
+}
+
+
+h1, h2 {
+    font-weight: 500;
+    font-size: 38px;
+    color: cornflowerblue;
+    font-family: "Times New Roman", serif;
+}
+
+h1 {
+    font-family: "Bitcount Single", "Times New Roman", serif;
+    text-transform: uppercase;
+}
+
+#About {
+    text-align: center;
+}
+
+#Experience {
+    list-style-type: square;
+}
+
+#Connect {
+    list-style-type: circle;
+    color: Blue;
+    font-weight: bold;
+
+}
