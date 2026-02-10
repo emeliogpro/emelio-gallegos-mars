@@ -20,6 +20,12 @@ h1 {
     font-family: "Bitcount Single", "Times New Roman", serif;
     text-transform: uppercase;
 }
+/* Navigation styles*/
+.navigation {
+    color: steelblue;
+}
+
+
 
 #About {
     text-align: center;
@@ -52,7 +58,7 @@ h1 {
 }
 
 .experience-description {
-    margin-top: 10 px;
+    margin-top: 10px;
     line-height: 1.5;
 }
 
