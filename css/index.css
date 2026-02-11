@@ -1,5 +1,7 @@
 /*CSS file*/
 
+/*=======Default desktop/laptop Styles===========*/
+
 body {
     background-color: midnightblue;
     color: lightblue;
@@ -20,16 +22,17 @@ h1 {
     font-family: "Bitcount Single", "Times New Roman", serif;
     text-transform: uppercase;
 }
+
 /* Navigation styles*/
 .navigation {
     color: steelblue;
 }
 
-
-
+/*About Sesction Styles*/
 #About {
     text-align: center;
 }
+
 /*Experience section styles*/
 #Experience {
     margin-top: 40px;
@@ -78,11 +81,73 @@ h1 {
 }
 
 .connect-links a {
-    color: lightblue;
+    color: slateblue;
     text-decoration: none;
     font-weight: bold;
 }
 
 .connect-links a:hover {
     text-decoration: underline;
+}
+
+
+/*============Tablet Styles==========*/
+@media (max-width: 1024px) {
+    h1, h2 {
+        font-size: 32px;
+        color: darkorchid;
+    }
+
+    h1 {
+        font-size: 34px;
+        color: blueviolet;
+    }
+
+    body {
+        background-color: navy;
+        color: mediumslateblue;
+        padding: 20px;
+    }
+}
+
+/*=========Mobile Styles============*/
+@media (max-width: 480px) {
+
+    h1, h2 {
+        font-size: 30px;
+        color: palegreen;
+        text-align: center;
+    }
+
+
+    h1 {
+        font-size: 30px;
+        color: lime;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experience-item {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .connect-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    body {
+        background-color: mediumblue;
+        color: lightseagreen;
+    }
 }
