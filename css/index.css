@@ -20,18 +20,69 @@ h1 {
     font-family: "Bitcount Single", "Times New Roman", serif;
     text-transform: uppercase;
 }
+/* Navigation styles*/
+.navigation {
+    color: steelblue;
+}
+
+
 
 #About {
     text-align: center;
 }
-
+/*Experience section styles*/
 #Experience {
-    list-style-type: square;
+    margin-top: 40px;
 }
 
-#Connect {
-    list-style-type: circle;
-    color: Blue;
-    font-weight: bold;
+.experience-item {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 3px solid cornflowerblue;
+}
 
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.experience-dates {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.experience-description {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/*Connect section styles*/
+#Connect {
+    margin-top: 40px;
+
+}
+
+.connect-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+    padding: 15px;
+    border-left: 3px solid cornflowerblue;
+}
+
+.connect-links a {
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.connect-links a:hover {
+    text-decoration: underline;
 }
