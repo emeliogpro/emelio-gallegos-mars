@@ -46,12 +46,12 @@ h1 {
 }
 
 /*About Sesction Styles*/
-#About {
+#about {
     text-align: center;
 }
 
 /*Experience section styles*/
-#Experience {
+#experience {
     margin-top: 40px;
 }
 
@@ -83,7 +83,7 @@ h1 {
 }
 
 /*Skills section styles*/
-#Skills ul {
+#skills ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -91,14 +91,14 @@ h1 {
     list-style: none;
 }
 
-#Skills li {
+#skills li {
     background-color: royalblue;
     padding: 10px;
     border-radius: 5px;
 }
 
 /*Connect section styles*/
-#Connect {
+#connect {
     margin-top: 40px;
 
 }
@@ -121,6 +121,43 @@ h1 {
 .connect-links a:hover {
     text-decoration: underline;
 }
+
+/*Leave a Message/Messages section styles*/
+#leave-message form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+    font-size: 22px;
+    
+}
+
+#leave-message input,
+#leave-message textarea {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightblue;
+    color: royalblue;
+}
+
+#leave-message textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+#leave-message button {
+    width: 150px;
+    padding: 10px;
+    background-color: royalblue;
+    color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 
 
 /*============Tablet Styles==========*/
@@ -145,15 +182,38 @@ h1 {
         padding: 20px;
     }
     /*skills*/
-    #Skills ul {
+    #skills ul {
         gap: 15px;
         justify-content: flex-start;
     }
 
-    #Skills li {
+    #skills li {
         padding: 8px;
         font-size: 20px;
         background-color: midnightblue;
+    }
+
+    /*Leave a Message/Messages*/
+    #leave-message form {
+        max-width: 600px;
+        gap: 14px;
+        font-size: 20px;
+    }
+
+    #leave-message input,
+    #leave-message textarea {
+        padding: 8px;
+        font-size: 20px;
+        color: indigo;
+        background-color: mediumslateblue;
+    }
+
+    #leave-message button {
+        width: 150px;
+        padding: 10px;
+        font-size: 22px;
+        background-color: darkorchid;
+        color: indigo;
     }
 }
 
@@ -213,17 +273,39 @@ h1 {
         color: lightseagreen;
     }
     /*skills*/
-    #Skills ul {
+    #skills ul {
         flex-direction: column;
         gap: 10px;
         align-items: center;
     }
 
-    #Skills li {
+    #skills li {
         width: 70%;
         text-align: center;
         padding: 8px;
-        font-size: 15px;
+        font-size: 18px;
+        background-color: darkblue;
+    }
+    /*Leave a Message/Message*/
+    #leave-message form {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    #leave-message input,
+    #leave-message textarea {
+        font-size: 18px;
+        padding: 12px;
+        background-color: aquamarine;
+        color: darkblue;
+    }
+
+    #leave-message button {
+        width: 100%;
+        padding: 12px;
+        font-size: 20px;
+        color: limegreen;
         background-color: darkblue;
     }
 }
+
